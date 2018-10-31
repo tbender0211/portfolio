@@ -1,4 +1,5 @@
 import React from "react";
+import "./title.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Title = props => (
