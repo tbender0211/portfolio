@@ -1,6 +1,7 @@
 import React from "react";
 import "./title.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Jumbotron, Button } from "react-bootstrap";
 
 const Title = () => (
     <div>
