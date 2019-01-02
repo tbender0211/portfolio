@@ -1,7 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import logo from './logo.svg';
-import './App.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -15,7 +13,7 @@ const App = () =>
   <Router>
     <div>
       <Switch>
-        <Router exact path="/" component={Home} />
+        <Route exact path="/" component={Home} />
       </Switch>
     </div>
   </Router>

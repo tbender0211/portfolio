@@ -16,3 +16,5 @@ const Title = props => (
         </Jumbotron>
     </div>
 );
+
+export default Title;

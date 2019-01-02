@@ -1,6 +1,6 @@
-import React from "react";
-import Title from "../components/Title";
-import TopNav from "../components/TopNav";
+import React, { Component } from "react";
+import Title from "../components/Title/Title";
+import TopNav from "../components/TopNav/TopNav";
 
 const Home = () => (
 <div>
@@ -8,5 +8,16 @@ const Home = () => (
     <Title />
 </div>
 );
+
+class Home extends Component {
+    render() {
+        return (
+            <div>
+                <TopNav />
+                <Title />
+            </div>
+        );
+    }
+};
 
 export default Home;
