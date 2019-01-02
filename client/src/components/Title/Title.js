@@ -2,7 +2,7 @@ import React from "react";
 import "./title.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Title = props => (
+const Title = () => (
     <div>
         <Jumbotron>
             <h1>Tara Bender</h1>
