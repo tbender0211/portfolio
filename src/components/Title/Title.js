@@ -32,8 +32,7 @@ const Title = () => (
                         </p>
                     </Jumbotron>
                 </Col>
-            </Row>
-       
+            </Row>    
         </Grid>
     </div>
 );
