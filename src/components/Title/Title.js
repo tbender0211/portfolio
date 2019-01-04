@@ -1,6 +1,7 @@
 import React from "react";
 import "./title.css";
 import { Jumbotron, Button, Grid, Row, Col, Image } from "react-bootstrap";
+import methumbnail from "./methumbnail.jpg";
 
 
 //Font awesome stuff for symbols
@@ -17,13 +18,13 @@ const Title = () => (
         <Grid>
             <Row>
                 <Col md={8} mdOffset={2}>
-                    <Jumbotron>
+                    <Jumbotron id="intro">
                         <h1>Tara Bender</h1>
                         <p>
                             Full-stack Web Developer
                         </p>
                         <p>
-                            <Image src="/me-thumbnail.jpg" circle />
+                            <Image id="me" src={methumbnail} circle responsive />
                         </p>
                         <p>
                             <Button bsStyle="primary"><FontAwesomeIcon icon={faGithub} /></Button>
