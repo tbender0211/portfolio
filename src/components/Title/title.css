@@ -1,8 +1,13 @@
 #me {
     width: 30%;
-    margin-left: 33%;
+    margin-left: 35%;
 }
 
 #intro {
     text-align: center;
+}
+
+.btn-primary {
+    margin: 5px;
+    width: 50px;
 }
