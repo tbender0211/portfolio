@@ -3,9 +3,7 @@ import "./Education.css";
 import { Grid, Row, Col } from "react-bootstrap";
 
 const Education = () => (
-    <div>
-        <Grid>
-            <Row>
+            <Row id="education">
                 <Col md={10} mdOffset={1}>
                     <h1>Education</h1>
                     <br />
@@ -20,8 +18,6 @@ const Education = () => (
                     <p>GPA: 3.16</p>
                 </Col>
             </Row>
-        </Grid>
-    </div>
 );
 
 export default Education;

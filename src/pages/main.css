@@ -1,0 +1,19 @@
+#sidenav {
+    height: 100%;
+};
+
+#content {
+    background-color: white;
+}
+
+.container {
+    width: 100%;
+}
+
+.row {
+    height: 100%;
+}
+
+body {
+    background-color: black;
+}

@@ -3,9 +3,7 @@ import "./Work.css";
 import { Grid, Row, Col } from "react-bootstrap";
 
 const Work = () => (
-    <div>
-        <Grid>
-            <Row>
+            <Row id="experience">
                 <Col md={10} mdOffset={1}>
                     <br />
                     <h1>Work Experience</h1>
@@ -62,8 +60,6 @@ const Work = () => (
 
                 </Col>
             </Row>
-        </Grid>
-    </div>
 );
 
 export default Work;
