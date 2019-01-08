@@ -13,55 +13,57 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Project = () => (
+    <Row id="projects">
+        <Col md={10} mdOffset={1}>
+            <Row>
+                <br />
+                <h1>Projects</h1>
+                <br />
+                <Col xs={6} md={4}>
+                <Thumbnail src={raddit} alt="242x200">
+                    <h3>Thumbnail label</h3>
+                    <p>Description</p>
+                    <p>
+                    <Button bsStyle="primary" target="_blank" href="https://github.com/tbender0211/eiforya"><FontAwesomeIcon icon={faGithub} /></Button>
+                    &nbsp;
+                    </p>
+                </Thumbnail>
+                </Col>
+                <Col xs={6} md={4}>
+                <Thumbnail src={crystalcollector} alt="242x200">
+                    <h3>Thumbnail label</h3>
+                    <p>Description</p>
+                    <p>
+                    <Button bsStyle="primary" target="_blank" href="https://github.com/tbender0211/crystal-collector"><FontAwesomeIcon icon={faGithub} /></Button>
+                    &nbsp;
+                    </p>
+                </Thumbnail>
+                </Col>
+                <Col xs={6} md={4}>
+                <Thumbnail src={moodmusic}alt="242x200">
+                    <h3>Thumbnail label</h3>
+                    <p>Description</p>
+                    <p>
+                    <Button bsStyle="primary" target="_blank" href="https://github.com/tbender0211/mood-music"><FontAwesomeIcon icon={faGithub} /></Button>
+                    &nbsp;
+                    </p>
+                </Thumbnail>
+                </Col>
+            </Row>
 
-    <Grid>
-
-        <Row>
-            <Col xs={6} md={4}>
-            <Thumbnail src={raddit} alt="242x200">
-                <h3>Thumbnail label</h3>
-                <p>Description</p>
-                <p>
-                <Button bsStyle="primary" target="_blank" href="https://github.com/tbender0211/eiforya"><FontAwesomeIcon icon={faGithub} /></Button>
-                &nbsp;
-                </p>
-            </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-            <Thumbnail src={crystalcollector} alt="242x200">
-                <h3>Thumbnail label</h3>
-                <p>Description</p>
-                <p>
-                <Button bsStyle="primary" target="_blank" href="https://github.com/tbender0211/crystal-collector"><FontAwesomeIcon icon={faGithub} /></Button>
-                &nbsp;
-                </p>
-            </Thumbnail>
-            </Col>
-            <Col xs={6} md={4}>
-            <Thumbnail src={moodmusic}alt="242x200">
-                <h3>Thumbnail label</h3>
-                <p>Description</p>
-                <p>
-                <Button bsStyle="primary" target="_blank" href="https://github.com/tbender0211/mood-music"><FontAwesomeIcon icon={faGithub} /></Button>
-                &nbsp;
-                </p>
-            </Thumbnail>
-            </Col>
-        </Row>
-
-        <Row>
-            <Col xs={6} md={4}>
-            <Thumbnail src={wowguessgame} alt="242x200">
-                <h3>Thumbnail Label</h3>
-                <p>Description</p>
-                <p>
-                <Button bsStyle="primary" target="_blank" href="https://github.com/tbender0211/word-guess-game"><FontAwesomeIcon icon={faGithub} /></Button>
-                </p>
-            </Thumbnail>
-            </Col>
-        </Row>
-
-    </Grid>
+            <Row>
+                <Col xs={6} md={4}>
+                <Thumbnail src={wowguessgame} alt="242x200">
+                    <h3>Thumbnail Label</h3>
+                    <p>Description</p>
+                    <p>
+                    <Button bsStyle="primary" target="_blank" href="https://github.com/tbender0211/word-guess-game"><FontAwesomeIcon icon={faGithub} /></Button>
+                    </p>
+                </Thumbnail>
+                </Col>
+            </Row>
+        </Col>
+    </Row>
 );
 
 export default Project;

@@ -1,10 +1,10 @@
 import React from "react";
 import "./Work.css";
-import { Grid, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 const Work = () => (
             <Row id="experience">
-                <Col md={10} mdOffset={1}>
+                <Col md={10} mdOffset={1} id="border">
                     <br />
                     <h1>Work Experience</h1>
                     <br />
@@ -59,6 +59,7 @@ const Work = () => (
                         </ul>
 
                 </Col>
+                <br />
             </Row>
 );
 

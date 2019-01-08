@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Title from "../components/Title/Title";
-import TopNav from "../components/TopNav/TopNav";
+import Project from "../components/Projects/Project";
 import Education from "../components/Education/Education";
 import Work from "../components/Work/Work";
 import { Grid, Row, Col } from "react-bootstrap";
@@ -17,6 +17,7 @@ class Home extends Component {
                         <Title />
                         <Education />
                         <Work />
+                        <Project />
                     </Col>
                 </Row>
             </Grid>

@@ -1,3 +1,7 @@
 #experience {
     background-color: white;
 }
+
+#border {
+    border-bottom: solid rgb(168, 168, 168) 1px;
+}

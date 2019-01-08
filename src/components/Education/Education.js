@@ -4,7 +4,7 @@ import { Grid, Row, Col } from "react-bootstrap";
 
 const Education = () => (
             <Row id="education">
-                <Col md={10} mdOffset={1}>
+                <Col md={10} mdOffset={1} id="border">
                     <h1>Education</h1>
                     <br />
                     <h2><b>The University of Kansas</b>, Overland Park, KS</h2>
