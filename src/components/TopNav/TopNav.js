@@ -11,7 +11,7 @@ const TopNav = () => (
                 </Navbar.Brand>
             </Navbar.Header>
             <Nav pullRight>
-                <NavItem eventKey={1} href="#">
+                <NavItem eventKey={1} href="/projects">
                     Projects
                 </NavItem>
                 <NavItem eventKey={2} href="#">
