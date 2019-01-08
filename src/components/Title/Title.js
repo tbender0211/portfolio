@@ -17,7 +17,7 @@ const Title = () => (
     <div>
         <Grid>
             <Row>
-                <Col md={8} mdOffset={2}>
+                <Col md={10} mdOffset={1}>
                     <Jumbotron id="intro">
                         <h1>Tara Bender</h1>
                         <p>
