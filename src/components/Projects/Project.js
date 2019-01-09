@@ -7,6 +7,8 @@ import crystalcollector from "./images/crystalcollector.PNG";
 import raddit from "./images/raddit.PNG";
 import wowguessgame from "./images/wowguessgame.PNG";
 import moodmusic from "./images/moodmusic.PNG";
+import friendfinder from "./images/friendfinder.PNG";
+import wowmazon from "./images/wowmazon.PNG";
 
 //Font awesome stuff
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -58,6 +60,24 @@ const Project = () => (
                     <p></p>
                     <p>
                     <Button bsStyle="primary" target="_blank" href="https://github.com/tbender0211/word-guess-game"><FontAwesomeIcon icon={faGithub} /></Button>
+                    </p>
+                </Thumbnail>
+                </Col>
+                <Col xs={6} md={4}>
+                <Thumbnail src={friendfinder} alt="242x200">
+                    <h3>Friend Finder</h3>
+                    <p></p>
+                    <p>
+                    <Button bsStyle="primary" target="_blank" href="https://github.com/tbender0211/FriendFinder"><FontAwesomeIcon icon={faGithub} /></Button>
+                    </p>
+                </Thumbnail>
+                </Col>
+                <Col xs={6} md={4}>
+                <Thumbnail src={wowmazon} alt="242x200">
+                    <h3>WoWmazon</h3>
+                    <p>Node app simulating the World of Warcraft Auction House</p>
+                    <p>
+                    <Button bsStyle="primary" target="_blank" href="https://github.com/tbender0211/WoWmazon"><FontAwesomeIcon icon={faGithub} /></Button>
                     </p>
                 </Thumbnail>
                 </Col>
