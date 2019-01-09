@@ -21,8 +21,8 @@ const Project = () => (
                 <br />
                 <Col xs={6} md={4}>
                 <Thumbnail src={raddit} alt="242x200">
-                    <h3>Thumbnail label</h3>
-                    <p>Description</p>
+                    <h3>Raddit</h3>
+                    <p></p>
                     <p>
                     <Button bsStyle="primary" target="_blank" href="https://github.com/tbender0211/eiforya"><FontAwesomeIcon icon={faGithub} /></Button>
                     &nbsp;
@@ -31,8 +31,8 @@ const Project = () => (
                 </Col>
                 <Col xs={6} md={4}>
                 <Thumbnail src={crystalcollector} alt="242x200">
-                    <h3>Thumbnail label</h3>
-                    <p>Description</p>
+                    <h3>Crystal Collector</h3>
+                    <p></p>
                     <p>
                     <Button bsStyle="primary" target="_blank" href="https://github.com/tbender0211/crystal-collector"><FontAwesomeIcon icon={faGithub} /></Button>
                     &nbsp;
@@ -41,8 +41,8 @@ const Project = () => (
                 </Col>
                 <Col xs={6} md={4}>
                 <Thumbnail src={moodmusic}alt="242x200">
-                    <h3>Thumbnail label</h3>
-                    <p>Description</p>
+                    <h3>Mood Music</h3>
+                    <p></p>
                     <p>
                     <Button bsStyle="primary" target="_blank" href="https://github.com/tbender0211/mood-music"><FontAwesomeIcon icon={faGithub} /></Button>
                     &nbsp;
@@ -54,8 +54,8 @@ const Project = () => (
             <Row>
                 <Col xs={6} md={4}>
                 <Thumbnail src={wowguessgame} alt="242x200">
-                    <h3>Thumbnail Label</h3>
-                    <p>Description</p>
+                    <h3>Word Guess Game</h3>
+                    <p></p>
                     <p>
                     <Button bsStyle="primary" target="_blank" href="https://github.com/tbender0211/word-guess-game"><FontAwesomeIcon icon={faGithub} /></Button>
                     </p>
