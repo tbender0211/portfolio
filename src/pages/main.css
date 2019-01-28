@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Abel|Arimo:700");
+@import url("https://fonts.googleapis.com/css?family=Abel|Arimo:700|Roboto");
 
 #sidenav {
     height: 100%;
@@ -18,7 +18,7 @@
 
 body {
     background-color: black;
-    font-family: 'Arimo', sans-serif !important;
+    font-family: 'Roboto', sans-serif !important;
 }
 
 /* .sk-folding-cube {
