@@ -2,11 +2,12 @@ import React from "react";
 import "./SideNav.css";
 import { Nav, Col, NavItem } from "react-bootstrap";
 
-function handleSelect(selectedKey) {
-    console.log(`selected ${selectedKey}`);
-};
+
 
 class SideNav extends React.Component {
+    handleSelect(selectedKey) {
+        console.log(`selected ${selectedKey}`);
+    }
     render() {
         return (
             <Col md={2} id="sidenav">
@@ -16,7 +17,7 @@ class SideNav extends React.Component {
                     <br />
                     <p>
                         <Nav id="nav" bsStyle="pills" stacked onSelect={handleSelect}>
-                            <NavItem eventKey={0} href="#intro">
+                            <NavItem onClick={this.handleSelect} eventKey={0} href="#intro">
                                 Intro
                             </NavItem>
                             <NavItem eventKey={1} href="#education">
