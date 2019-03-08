@@ -24,7 +24,7 @@ const Project = () => (
                 <Col xs={6} md={4}>
                 <Thumbnail src={raddit} alt="242x200">
                     <h3>Raddit</h3>
-                    <p></p>
+                    <p>Reddit-esque app using MySQL</p>
                     <p>
                     <Button bsStyle="primary" target="_blank" href="https://github.com/tbender0211/eiforya"><FontAwesomeIcon icon={faGithub} /></Button>
                     &nbsp;
@@ -34,7 +34,7 @@ const Project = () => (
                 <Col xs={6} md={4}>
                 <Thumbnail src={crystalcollector} alt="242x200">
                     <h3>Crystal Collector</h3>
-                    <p></p>
+                    <p>Simple click game using JavaScript</p>
                     <p>
                     <Button bsStyle="primary" target="_blank" href="https://github.com/tbender0211/crystal-collector"><FontAwesomeIcon icon={faGithub} /></Button>
                     &nbsp;
@@ -44,7 +44,7 @@ const Project = () => (
                 <Col xs={6} md={4}>
                 <Thumbnail src={moodmusic}alt="242x200">
                     <h3>Mood Music</h3>
-                    <p></p>
+                    <p>App using facial recognition software to detect the highest scoring emotion, using it to generate a random Spotify playlist</p>
                     <p>
                     <Button bsStyle="primary" target="_blank" href="https://github.com/tbender0211/mood-music"><FontAwesomeIcon icon={faGithub} /></Button>
                     &nbsp;
@@ -57,7 +57,7 @@ const Project = () => (
                 <Col xs={6} md={4}>
                 <Thumbnail src={wowguessgame} alt="242x200">
                     <h3>Word Guess Game</h3>
-                    <p></p>
+                    <p>Simple JavaScript game where user guesses a World of Warcraft related word selected from an array</p>
                     <p>
                     <Button bsStyle="primary" target="_blank" href="https://github.com/tbender0211/word-guess-game"><FontAwesomeIcon icon={faGithub} /></Button>
                     </p>
@@ -66,7 +66,7 @@ const Project = () => (
                 <Col xs={6} md={4}>
                 <Thumbnail src={friendfinder} alt="242x200">
                     <h3>Friend Finder</h3>
-                    <p></p>
+                    <p>Uses Express to create a friend API; user is matched with most compatible friend by scoring survey responses</p>
                     <p>
                     <Button bsStyle="primary" target="_blank" href="https://github.com/tbender0211/FriendFinder"><FontAwesomeIcon icon={faGithub} /></Button>
                     </p>

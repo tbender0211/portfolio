@@ -19,8 +19,8 @@ const Title = () => (
             <Row id="main-content">
                 <Col md={10} mdOffset={1}>
                     <Jumbotron id="intro">
-                        <div class="img"></div>
-                        <div class="container">
+                        <div className="img"></div>
+                        <div className="container">
                             <h1>Tara Bender</h1>
                             <p>
                                 Full-stack Web Developer

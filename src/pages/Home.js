@@ -16,7 +16,6 @@ class Home extends Component {
                     <Col md={10}>
                         <Title />
                         <Education />
-                        <Work />
                         <Project />
                     </Col>
                 </Row>
