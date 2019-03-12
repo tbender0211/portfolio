@@ -14,6 +14,8 @@ import wowmazon from "./images/wowmazon.PNG";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
+
+//Make props for each project
 const Project = () => (
     <Row id="projects">
         <Col md={10} mdOffset={1}>
