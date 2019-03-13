@@ -33,17 +33,17 @@ class Home extends Component {
                                     </h1>
                                     <br />
                                     <Project pic={raddit} project="Raddit" description="Reddit-esque app using MySQL"
-                                    link="https://github.com/tbender0211/eiforya"/>
+                                     link="https://github.com/tbender0211/eiforya"/>
                                     <Project pic={crystalcollector} project="Crystal Collector" description="Simple click game using JavaScript"
-                                    link="https://github.com/tbender0211/crystal-collector"/>
+                                     link="https://github.com/tbender0211/crystal-collector"/>
                                     <Project pic={moodmusic} project="Mood Music" description="App using facial recognition software to detect the highest emotion to generate Spotify playlist"
-                                    link="https://github.com/tbender0211/mood-music"/>
+                                     link="https://github.com/tbender0211/mood-music"/>
                                     <Project pic={wowguessgame} project="Word Guess Game" description="Simple JavaScript game where user guesses a World of Warcraft related word"
-                                    link="https://github.com/tbender0211/word-guess-game"/>
+                                     link="https://github.com/tbender0211/word-guess-game"/>
                                     <Project pic={friendfinder} project="Friend Finder" description="User is matched with most compatible friend through survey responses"
-                                    link="https://github.com/tbender0211/FriendFinder"/>
+                                     link="https://github.com/tbender0211/FriendFinder"/>
                                     <Project pic={wowmazon} project="WoWmazon" description="Node app simulating the World of Warcraft Auction House"
-                                    link="https://github.com/tbender0211/WoWmazon"/>
+                                     link="https://github.com/tbender0211/WoWmazon"/>
                                 </Row>
                             </Col>
                         </Row>
