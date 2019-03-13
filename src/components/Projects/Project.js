@@ -17,14 +17,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 class Project extends React.Component {
     render() {
         return (
-            <Row id="projects">
-                <Col md={10} mdOffset={1}>
-                    <Row>
-                        <br />
-                        <h1>
-                            Projects
-                        </h1>
-                        <br />
+
 
                         <Col xs={6} md={4}>
                             <Thumbnail src={this.props.pic} alt="242x200">
@@ -42,9 +35,7 @@ class Project extends React.Component {
                                 </p>
                             </Thumbnail>
                         </Col>
-                    </Row>
-                </Col>
-            </Row>
+
         );
     }
 }
