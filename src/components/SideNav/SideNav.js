@@ -12,8 +12,6 @@ class SideNav extends React.Component {
         return (
             <Col md={2} id="sidenav">
                 <div id="fixed">
-                    <h3>Tara Bender</h3>
-                    <p>Full-stack Web Developer</p>
                     <br />
                     <p>
                         <Nav id="nav" bsStyle="pills" stacked >

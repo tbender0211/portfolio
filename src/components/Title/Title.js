@@ -29,8 +29,8 @@ const Title = () => (
                                 <Image id="me" src={methumbnail} circle responsive />
                             </p>
                             <p>
-                                <Button bsStyle="primary" target="_blank" href="https://github.com/tbender0211"><FontAwesomeIcon icon={faGithub} /></Button>
-                                <Button bsStyle="primary" target="_blank" href="https://www.linkedin.com/in/tara-bender-008377b1/"><FontAwesomeIcon icon={faLinkedin} /></Button>
+                                <Button variant="primary" target="_blank" href="https://github.com/tbender0211"><FontAwesomeIcon icon={faGithub} /></Button>
+                                <Button variant="primary" target="_blank" href="https://www.linkedin.com/in/tara-bender-008377b1/"><FontAwesomeIcon icon={faLinkedin} /></Button>
                             </p>
                         </div>
                     </Jumbotron>

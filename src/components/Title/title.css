@@ -9,6 +9,7 @@
 
 #main-content {
   background-color: white;
+  color: white;
 }
 
 .btn-primary {
@@ -22,8 +23,8 @@
     color: #fff;
     /* background: url("./aspens.jpg") top center no-repeat; */
     background: #ffd89b;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #19547b, #ffd89b);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #19547b, #ffd89b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #19547b, #080808);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #19547b, #080808); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     width: 100%;
     height: 100%;
@@ -33,8 +34,13 @@
     top:0;
     left:0;
     z-index:1;
-    background-color: white;}
-#intro h1 {margin-top:0;}
+    background-color: white;
+  }
+
+#intro h1 {
+  margin-top:0;
+}
+
 #intro {
   position:relative;
   padding-top:50px;

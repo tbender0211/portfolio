@@ -20,7 +20,7 @@ class Project extends React.Component {
                                     <span>{this.props.description}</span>
                                 </p>
                                 <p>
-                                    <Button bsStyle="primary" target="_blank" href={this.props.link}>
+                                    <Button variant="dark" target="_blank" href={this.props.link}>
                                         <FontAwesomeIcon icon={faGithub} />
                                     </Button>
                                     &nbsp;
