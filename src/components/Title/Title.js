@@ -17,7 +17,10 @@ const Title = () => (
  
 
             <Row id="main-content">
-                <Col md={10} mdOffset={1}>
+                <Col md={2} mdOffset={1} id="about">
+                    <h2>Full-stack Web Developer</h2>
+                </Col>
+                <Col md={8}>
                     <Jumbotron id="intro">
                         <div className="img"></div>
                         <div className="container">
