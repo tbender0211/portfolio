@@ -3,11 +3,10 @@ import "./topNav.css";
 import { Nav, Navbar, NavItem} from "react-bootstrap";
 
 const TopNav = () => (
-    <div>
-        <Navbar inverse>
+        <Navbar bg="dark" variant="dark">
             <Navbar.Header>
                 <Navbar.Brand>
-                    <a href="/">Tara's Portfolio</a>
+                    <a href="/">Tara Bender</a>
                 </Navbar.Brand>
             </Navbar.Header>
             <Nav pullRight>
@@ -19,7 +18,6 @@ const TopNav = () => (
                 </NavItem>
             </Nav>
         </Navbar>
-    </div>
 );
 
 export default TopNav;

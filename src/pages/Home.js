@@ -4,7 +4,7 @@ import Project from "../components/Projects/Project";
 import Education from "../components/Education/Education";
 import Work from "../components/Work/Work";
 import { Grid, Row, Col } from "react-bootstrap";
-import SideNav from "../components/SideNav/SideNav";
+import TopNav from "../components/TopNav/TopNav";
 import "./main.css";
 
 //Project images for thumbnails
@@ -19,9 +19,9 @@ class Home extends Component {
     render() {
         return (
             <Grid>
+            <TopNav />
                 <Row>
-                    <SideNav />
-                    <Col md={10}>
+                    <Col>
                         <Title />
                         <Education />
                         <Row id="projects">

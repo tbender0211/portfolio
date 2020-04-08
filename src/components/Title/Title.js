@@ -21,10 +21,9 @@ const Title = () => (
                     <Jumbotron id="intro">
                         <div className="img"></div>
                         <div className="container">
-                            <h1>Tara Bender</h1>
-                            <p>
+                            {/* <p>
                                 Full-stack Web Developer
-                            </p>
+                            </p> */}
                             <p>
                                 <Image id="me" src={methumbnail} circle responsive />
                             </p>
