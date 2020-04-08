@@ -23,8 +23,8 @@ class Home extends Component {
                 <Row>
                     <Col>
                         <Title />
-                        <Education />
-                        <Row id="projects">
+                        {/* <Education /> */}
+                        {/* <Row id="projects">
                             <Col md={10} mdOffset={1}>
                                 <Row>
                                     <br />
@@ -46,7 +46,7 @@ class Home extends Component {
                                      link="https://github.com/tbender0211/WoWmazon"/>
                                 </Row>
                             </Col>
-                        </Row>
+                        </Row> */}
                     </Col>
                 </Row>
             </Grid>

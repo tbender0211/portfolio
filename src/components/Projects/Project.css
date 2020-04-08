@@ -1,3 +1,12 @@
 #projects {
-    background-color: white;
+    background-color: black;
+    color: white;
+}
+
+.thumbnail {
+    background-color: black;
+}
+
+.project, .description {
+    color: white;
 }
