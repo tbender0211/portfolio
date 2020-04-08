@@ -13,7 +13,7 @@ const TopNav = () => (
                 <NavItem eventKey={1} href="/projects">
                     Projects
                 </NavItem>
-                <NavItem eventKey={2} href="#">
+                <NavItem eventKey={2} href="/contact">
                     Contact
                 </NavItem>
             </Nav>
