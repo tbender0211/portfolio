@@ -1,6 +1,6 @@
 #me {
     width: 25%;
-    margin-left: 38%;
+    margin-left: 55%;
 }
 
 #intro {
@@ -8,7 +8,7 @@
 }
 
 #about {
-  text-align: right;
+  text-align: left;
 }
 
 #main-content {
@@ -49,10 +49,12 @@
   position:relative;
   padding-top:50px;
   padding-bottom:50px;
+  background-color: black;
 }
 #intro .container {
   position:relative;
   z-index:2;
+  font-size: 28pt;
 }
 
 @media screen and (max-width: 768px) {
@@ -65,4 +67,18 @@
 .col {
   padding: 0;
   margin: 0;
+}
+
+#about h2 {
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+#title {
+  position: absolute;
+  left: 30%;
+  top: 15%;
 }

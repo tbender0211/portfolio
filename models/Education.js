@@ -1,4 +1,4 @@
-const mongoose =require("mongoose");
+const mongoose =require('mongoose');
 
 const Schema = mongoose.Schema;
 
@@ -20,6 +20,6 @@ const EduSchema = new Schema({
     }
 });
 
-const Edu = mongoose.model("Edu", EduSchema);
+const Edu = mongoose.model('Edu', EduSchema);
 
 export default EduSchema;

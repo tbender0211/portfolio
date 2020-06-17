@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 
@@ -17,6 +17,6 @@ const ExpSchema = new Schema({
 
 });
 
-const Exp = mongoose.model("Exp", ExpSchema);
+const Exp = mongoose.model('Exp', ExpSchema);
 
 export default ExpSchema;

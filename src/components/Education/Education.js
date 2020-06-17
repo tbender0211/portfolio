@@ -1,10 +1,10 @@
-import React from "react";
-import "./Education.css";
-import { Grid, Row, Col } from "react-bootstrap";
+import React from 'react';
+import './Education.css';
+import { Grid, Row, Col } from 'react-bootstrap';
 
 const Education = () => (
-            <Row id="education">
-                <Col md={10} mdOffset={1} id="border">
+            <Row id='education'>
+                <Col md={10} mdOffset={1} id='border'>
                     <h1>Education</h1>
                     <br />
                     <h2><b>The University of Kansas</b>, Overland Park, KS</h2>
