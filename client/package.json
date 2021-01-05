@@ -4,7 +4,7 @@
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.21.1",
     "mngen": "^1.1.0",
     "moment": "^2.22.1",
     "react": "^16.3.2",
